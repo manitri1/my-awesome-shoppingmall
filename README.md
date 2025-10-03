@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Style Collections - 패션 쇼핑몰
 
-## Getting Started
+현대적이고 세련된 패션 브랜드 Style Collections의 공식 웹사이트입니다.
 
-First, run the development server:
+## 🚀 기술 스택
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4 + shadcn/ui
+- **Fonts**: Geist Sans & Geist Mono
+- **Icons**: Lucide React
+
+## 🛠️ 개발 환경 설정
 
 ```bash
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 프로덕션 빌드
+npm run build
+
+# 프로덕션 서버 실행
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+개발 서버는 [http://localhost:3000](http://localhost:3000)에서 실행됩니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 배포
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Vercel (추천)
 
-## Learn More
+1. [Vercel](https://vercel.com)에 가입
+2. GitHub 저장소 연결
+3. 자동 배포 설정 완료
 
-To learn more about Next.js, take a look at the following resources:
+### 다른 플랫폼
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Netlify**: 드래그 앤 드롭 또는 Git 연동
+- **GitHub Pages**: 정적 사이트로 빌드 후 배포
+- **Railway**: 풀스택 앱으로 배포
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 주요 기능
 
-## Deploy on Vercel
+- ✅ 반응형 디자인
+- ✅ 다크모드 지원
+- ✅ 모던 UI 컴포넌트
+- ✅ 이미지 최적화
+- ✅ SEO 최적화
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 디자인 시스템
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **색상**: OKLCH 색상 공간 사용
+- **컴포넌트**: shadcn/ui (New York 스타일)
+- **애니메이션**: Tailwind CSS Animate
+- **반응형**: 모바일 우선 디자인
+
+## 📄 라이선스
+
+이 프로젝트는 MIT 라이선스 하에 배포됩니다.
