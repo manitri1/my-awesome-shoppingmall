@@ -17,7 +17,6 @@ const nextConfig = {
   },
   // Next.js 15 최적화 설정
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ["lucide-react", "@radix-ui/react-icons"],
   },
 };
