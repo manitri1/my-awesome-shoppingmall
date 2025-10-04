@@ -15,10 +15,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
-  // Next.js 15 최적화 설정
-  experimental: {
-    optimizePackageImports: ["lucide-react", "@radix-ui/react-icons"],
-  },
 };
 
 export default nextConfig;
